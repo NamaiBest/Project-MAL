@@ -21,8 +21,10 @@ Power source (USB)
 A mobile or device with Wi-Fi to connect and register
 🧑‍💻 Setup Instructions
 Clone this repo or copy attendance_logger.ino into your Arduino IDE
+
 Edit the studentList[] array to include MAC addresses of known students
 Upload the code to your ESP32
-ESP32 starts an access point Attendance Point (password: joinme)
+ESP32 starts an access point Attendance Point 
 Students connect briefly (3 seconds), get logged, and auto-disconnected
+
 Visit 192.168.4.1 in a browser to view/download attendance
